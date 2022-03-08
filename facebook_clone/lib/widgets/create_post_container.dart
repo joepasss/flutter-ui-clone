@@ -1,6 +1,4 @@
 // ignore_for_file: deprecated_member_use, avoid_print
-
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 import '../models/user_model.dart';
