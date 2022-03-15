@@ -52,6 +52,12 @@ class HomeScreen extends StatelessWidget {
               child: Rooms(onlineUsers: onlineUsers),
             ),
           ),
+          SliverToBoxAdapter(
+            child: Stories(
+              currentUser: currentUser,
+              stories: stories,
+            ),
+          )
         ],
       ),
     );
