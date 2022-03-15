@@ -27,7 +27,7 @@ class Stories extends StatelessWidget {
         itemBuilder: (BuildContext context, int index) {
           if (index == 0) {
             return Padding(
-              padding: const EdgeInsets.symmetric(vertical: 4.0),
+              padding: const EdgeInsets.symmetric(horizontal: 4.0),
               child: _StroyAddCard(
                 currentUser: currentUser,
               ),
@@ -37,7 +37,7 @@ class Stories extends StatelessWidget {
           final Story story = stories[index - 1];
 
           return Padding(
-            padding: const EdgeInsets.symmetric(vertical: 4.0),
+            padding: const EdgeInsets.symmetric(horizontal: 4.0),
             child: _StoryCard(story: story),
           );
         },
